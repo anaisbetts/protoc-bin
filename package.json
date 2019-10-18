@@ -1,0 +1,23 @@
+{
+  "name": "protoc-bin",
+  "version": "3.10.0-alpha6",
+  "description": "A wrapper for Google's Protobuf Compiler",
+  "homepage": "https://github.com/anaisbetts/protoc-bin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaisbetts/protoc-bin"
+  },
+  "author": "Anaïs Betts <anais@anaisbetts.org>",
+  "bugs": {
+    "url": "https://github.com/anaisbetts/protoc-bin/issues"
+  },
+  "bin": {
+    "protoc": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bin-wrapper": "^4.1.0"
+  }
+}
